@@ -44,4 +44,9 @@ public class PageInfo {
 		this.list = list;
 	}
 
+	@Override
+	public String toString() {
+		return "PageInfo [pageSize=" + pageSize + ", pageNum=" + pageNum + ", total=" + total + ", list=" + list + "]";
+	}
+
 }

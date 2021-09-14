@@ -6,6 +6,9 @@
 	<select id="selByPage" resultType="People" parameterType="map">
 		select * from people limit #{pageStart},#{pageSize}
 	</select>
+	<select id="selByPage1" resultType="People" parameterType="map">
+		select * from people 
+	</select>
 	<select id="selCount" resultType="long">
 		select count(*) from people 
 	</select>
